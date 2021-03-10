@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chat</title>
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"> 
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <h2>ChatMaker</h2>
+      </div>
+      <div class="butnav">
+        <button class="nav-btn">Inscription</button>
+        <button class="nav-btn">Connexione</button>
+        <button class="nav-btn">Déconnexione</button>
+      </div>
+    </nav>
+    <div class="centreChat">
+      <div class="profile">
+        <h3>Profile</h3>
+        <img src="./img/Avatar - Text.png" alt="Avatar" />
+        <div class="centreDiv">
+          <form action="" method="POST">
+            <input
+              type="text"
+              id="inputProf"
+              placeholder="Ex. Psuedo"
+              name="psuedo"
+            />
+            <button class="btn">Valider</button>
+          </form>
+        </div>
+      </div>
+      <div class="divChat">
+        <div class="content">
+          <div class="chatleft">
+            <img id="left" src="./img/Avatar - Text.png" alt="Avatar" />
+            <div class="textZone">
+              <p>MIGUEL CARDONA</p>
+              <div class="colordiv">
+                <p class="message">Message</p>
+              </div>
+            </div>
+          </div>
+          <div class="chatright">
+            <img id="right" src="./img/Avatar - Text.png" alt="Avatar" />
+            <div class="textZone">
+              <p>MIGUEL CARDONA</p>
+              <div class="colordiv">
+                <p class="message">Message</p>
+              </div>
+            </div>
+          </div>
+          <div class="chatleft">
+            <img id="left" src="./img/Avatar - Text.png" alt="Avatar" />
+            <div class="textZone">
+              <p>MIGUEL CARDONA</p>
+              <div class="colordiv">
+                <p class="message">Message</p>
+              </div>
+            </div>
+          </div>
+          <div class="chatright">
+            <img id="right" src="./img/Avatar - Text.png" alt="Avatar" />
+            <div class="textZone">
+              <p>MIGUEL CARDONA</p>
+              <div class="colordiv">
+                <p class="message">Message</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="envMess">
+          <form id="FormMessage" action="index.html" method="POST">
+            <input
+              type="text"
+              placeholder="Ex. Salut!"
+              name="textChat"
+              id="envText"
+            />
+            <button class="btn2">Je chat</button>
+          </form>
+        </div>
+      </div>
+      <div class="rocket">
+        <i class="fas fa-rocket"></i>
+      </div>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
