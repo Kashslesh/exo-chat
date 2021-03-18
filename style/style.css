@@ -31,13 +31,13 @@ nav {
     margin-top: 20px;
 
 }
-.profile {
-margin-left: auto;
+.rocket1 {
+/* margin-left: auto;
 margin-right: auto;
 width: 15em;
 text-align: center;
-margin-top: 20%;
-
+margin-top: 20%; */
+grid-column-start: 1;
     
 }
 .content {
